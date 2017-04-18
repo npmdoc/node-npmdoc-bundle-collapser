@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,17 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-        href="https://github.com/substack/bundle-collapser"
-
-    >bundle-collapser (v1.2.1)</a>
+    <a href="https://github.com/substack/bundle-collapser">bundle-collapser (v1.2.1)</a>
 </h1>
 <h4>convert bundle paths to IDS to save bytes in browserify bundles</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.bundle-collapser">module bundle-collapser</a><ol>
 
@@ -175,7 +168,7 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function apply(b, opts) {
-    b.pipeline.get(&#x27;label&#x27;).push(through.obj(function (row, enc, next) {
+    b.pipeline.get('label').push(through.obj(function (row, enc, next) {
         row.source = replace(row.source, row.deps);
         var deps = {};
 		for (var key in row.deps) {
@@ -185,7 +178,7 @@
         this.push(row);
         next();
     }));
-    b.once(&#x27;reset&#x27;, function () { apply(b, opts) });
+    b.once('reset', function () { apply(b, opts) });
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -207,8 +200,8 @@
     return falafel(src, opts, function (node) {
         if (isRequire(node)) {
             var value = node.arguments[0].value;
-            if (has(deps, value) &#x26;&#x26; deps[value]) {
-                node.update(&#x27;require(&#x27; + JSON.stringify(deps[value]) + &#x27;)&#x27;);
+            if (has(deps, value) &amp;&amp; deps[value]) {
+                node.update('require(' + JSON.stringify(deps[value]) + ')');
             }
         }
     }).toString();
@@ -232,8 +225,8 @@
 return falafel(src, opts, function (node) {
     if (isRequire(node)) {
         var value = node.arguments[0].value;
-        if (has(deps, value) &#x26;&#x26; deps[value]) {
-            node.update(&#x27;require(&#x27; + JSON.stringify(deps[value]) + &#x27;)&#x27;);
+        if (has(deps, value) &amp;&amp; deps[value]) {
+            node.update('require(' + JSON.stringify(deps[value]) + ')');
         }
     }
 }).<span class="apidocCodeKeywordSpan">toString</span>();
@@ -242,8 +235,8 @@ return falafel(src, opts, function (node) {
 function isRequire (node) {
 var c = node.callee;
 return c
-    &#x26;&#x26; node.type === &#x27;CallExpression&#x27;
-    &#x26;&#x26; c.type === &#x27;Identifier&#x27;
+    &amp;&amp; node.type === 'CallExpression'
+    &amp;&amp; c.type === 'Identifier'
 ...</pre></li>
     </ul>
 
@@ -262,7 +255,7 @@ return c
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function apply(b, opts) {
-    b.pipeline.get(&#x27;label&#x27;).push(through.obj(function (row, enc, next) {
+    b.pipeline.get('label').push(through.obj(function (row, enc, next) {
         row.source = replace(row.source, row.deps);
         var deps = {};
 		for (var key in row.deps) {
@@ -272,7 +265,7 @@ return c
         this.push(row);
         next();
     }));
-    b.once(&#x27;reset&#x27;, function () { apply(b, opts) });
+    b.once('reset', function () { apply(b, opts) });
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -299,8 +292,8 @@ return c
     return falafel(src, opts, function (node) {
         if (isRequire(node)) {
             var value = node.arguments[0].value;
-            if (has(deps, value) &#x26;&#x26; deps[value]) {
-                node.update(&#x27;require(&#x27; + JSON.stringify(deps[value]) + &#x27;)&#x27;);
+            if (has(deps, value) &amp;&amp; deps[value]) {
+                node.update('require(' + JSON.stringify(deps[value]) + ')');
             }
         }
     }).toString();
@@ -327,8 +320,8 @@ return c
 return falafel(src, opts, function (node) {
     if (isRequire(node)) {
         var value = node.arguments[0].value;
-        if (has(deps, value) &#x26;&#x26; deps[value]) {
-            node.update(&#x27;require(&#x27; + JSON.stringify(deps[value]) + &#x27;)&#x27;);
+        if (has(deps, value) &amp;&amp; deps[value]) {
+            node.update('require(' + JSON.stringify(deps[value]) + ')');
         }
     }
 }).<span class="apidocCodeKeywordSpan">toString</span>();
@@ -337,8 +330,8 @@ return falafel(src, opts, function (node) {
 function isRequire (node) {
 var c = node.callee;
 return c
-    &#x26;&#x26; node.type === &#x27;CallExpression&#x27;
-    &#x26;&#x26; c.type === &#x27;Identifier&#x27;
+    &amp;&amp; node.type === 'CallExpression'
+    &amp;&amp; c.type === 'Identifier'
 ...</pre></li>
     </ul>
 
@@ -351,3 +344,4 @@ return c
     ]
 </div>
 </div>
+</body></html>
