@@ -1,9 +1,14 @@
-# api documentation for  [bundle-collapser (v1.2.1)](https://github.com/substack/bundle-collapser)  [![npm package](https://img.shields.io/npm/v/npmdoc-bundle-collapser.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-bundle-collapser) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-bundle-collapser.svg)](https://travis-ci.org/npmdoc/node-npmdoc-bundle-collapser)
+# npmdoc-bundle-collapser
+
+#### api documentation for  [bundle-collapser (v1.2.1)](https://github.com/substack/bundle-collapser)  [![npm package](https://img.shields.io/npm/v/npmdoc-bundle-collapser.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-bundle-collapser) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-bundle-collapser.svg)](https://travis-ci.org/npmdoc/node-npmdoc-bundle-collapser)
+
 #### convert bundle paths to IDS to save bytes in browserify bundles
 
-[![NPM](https://nodei.co/npm/bundle-collapser.png?downloads=true)](https://www.npmjs.com/package/bundle-collapser)
+[![NPM](https://nodei.co/npm/bundle-collapser.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/bundle-collapser)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-bundle-collapser/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-bundle-collapser_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-bundle-collapser/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-bundle-collapser/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-bundle-collapser/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-bundle-collapser/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-bundle-collapser/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-bundle-collapser/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +23,6 @@
 {
     "author": {
         "name": "James Halliday",
-        "email": "mail@substack.net",
         "url": "http://substack.net"
     },
     "bin": {
@@ -57,13 +61,11 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "substack",
-            "email": "mail@substack.net"
+            "name": "substack"
         }
     ],
     "name": "bundle-collapser",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/substack/bundle-collapser.git"
@@ -74,16 +76,6 @@
     "version": "1.2.1"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module bundle-collapser](#apidoc.module.bundle-collapser)
-
-
-
-# <a name="apidoc.module.bundle-collapser"></a>[module bundle-collapser](#apidoc.module.bundle-collapser)
 
 
 
