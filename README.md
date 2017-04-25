@@ -1,6 +1,6 @@
 # npmdoc-bundle-collapser
 
-#### api documentation for  [bundle-collapser (v1.2.1)](https://github.com/substack/bundle-collapser)  [![npm package](https://img.shields.io/npm/v/npmdoc-bundle-collapser.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-bundle-collapser) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-bundle-collapser.svg)](https://travis-ci.org/npmdoc/node-npmdoc-bundle-collapser)
+#### basic api documentation for  [bundle-collapser (v1.2.1)](https://github.com/substack/bundle-collapser)  [![npm package](https://img.shields.io/npm/v/npmdoc-bundle-collapser.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-bundle-collapser) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-bundle-collapser.svg)](https://travis-ci.org/npmdoc/node-npmdoc-bundle-collapser)
 
 #### convert bundle paths to IDS to save bytes in browserify bundles
 
